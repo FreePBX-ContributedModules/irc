@@ -122,7 +122,15 @@ switch ($action) {
 
 <applet name="PJirc" codebase="modules/irc/pjirc/" code="IRCApplet.class" archive="irc.jar,pixx.jar" width="640" height="400">
 <param name="CABINETS" value="irc.cab,securedirc.cab,pixx.cab">
-<param name="nick" value="<?php echo (!empty($_GET['nick']) ? $_GET['nick'] : 'FreePBX????') ?>">
+<?php
+if (isset($_GET['nick'])) {
+	// prevent XSS and other issues
+	$nick = preg_replace('/[^a-zA-Z0-9_\-!]/','',$_GET['nick']);
+} else {
+	$nick = '';
+}
+?>
+<param name="nick" value="<?php echo (!empty($nick) ? $nick : 'FreePBX????') ?>">
 <param name="alternatenick" value="FreePBXU????">
 <param name="host" value="irc.freenode.net">
 <param name="gui" value="pixx">
