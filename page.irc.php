@@ -21,8 +21,87 @@ $type = 'tool';
 ?>
 
 </div> 
+<script type="text/javascript">
+/**
+ * Sets a Cookie with the given name and value.
+ *
+ * name       Name of the cookie
+ * value      Value of the cookie
+ * [expires]  Expiration date of the cookie (default: end of current session)
+ * [path]     Path where the cookie is valid (default: path of calling document)
+ * [domain]   Domain where the cookie is valid
+ *              (default: domain of calling document)
+ * [secure]   Boolean value indicating if the cookie transmission requires a
+ *              secure transmission
+ */
+function setCookie(name, value, expires, path, domain, secure) {
+    document.cookie= name + "=" + escape(value) +
+        ((expires) ? "; expires=" + expires.toGMTString() : "") +
+        ((path) ? "; path=" + path : "") +
+        ((domain) ? "; domain=" + domain : "") +
+        ((secure) ? "; secure" : "");
+}
+
+/**
+ * Gets the value of the specified cookie.
+ *
+ * name  Name of the desired cookie.
+ *
+ * Returns a string containing value of specified cookie,
+ *   or null if cookie does not exist.
+ */
+function getCookie(name) {
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    } else {
+        begin += 2;
+    }
+    var end = document.cookie.indexOf(";", begin);
+    if (end == -1) {
+        end = dc.length;
+    }
+    return unescape(dc.substring(begin + prefix.length, end));
+}
+
+/**
+ * Deletes the specified cookie.
+ *
+ * name      name of the cookie
+ * [path]    path of the cookie (must be same as path used to create cookie)
+ * [domain]  domain of the cookie (must be same as domain used to create cookie)
+ */
+function deleteCookie(name, path, domain) {
+    if (getCookie(name)) {
+        document.cookie = name + "=" +
+            ((path) ? "; path=" + path : "") +
+            ((domain) ? "; domain=" + domain : "") +
+            "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+    }
+}
+
+function startirc(element) {
+	var nick = null;
+	nick = getCookie('ircnick');
+	
+	nick = prompt("What nickname would you like to use? If you leave this blank, a nick will be automatically generated for you.", nick);
+	if ((nick == null) || (nick == '')) {
+		return true;
+	} else {
+		var expiry = new Date();
+		expiry.setTime(expiry.getTime() + 60 * 60 * 24 * 30); // 30 days
+		setCookie('ircnick', nick, expiry);
+		element.href += '&nick='+nick;
+		return true;
+	}
+}
+</script>
+
 <div class="rnav">
-    <li><a href="config.php?type=tool&display=<?php echo urlencode($display)?>&action=start"><?php echo _("Start IRC")?></a></li>
+    <li><a href="config.php?type=tool&display=<?php echo urlencode($display)?>&action=start" onclick="startirc(this);"><?php echo _("Start IRC")?></a></li>
     <li><a href="http://aussievoip.com.au/wiki-FreePBX" target="_new"><?php echo _("Online Documentation")?></a></li>
 </div>
 <div class="content">
@@ -41,9 +120,9 @@ switch ($action) {
 <?php echo _("When you connect, you will be automatically be named 'FreePBX' and a random 4 digit number, eg, FreePBX3486. If you wish to change this to your normal nickname, you can type '<b>/nick yournickname</b>', and your nick will change. This is an ENGLISH ONLY support channel. Sorry.")?>
 </p>
 
-<applet name=PJirc codebase=modules/irc/pjirc/ code=IRCApplet.class archive="irc.jar,pixx.jar" width=640 height=400>
+<applet name="PJirc" codebase="modules/irc/pjirc/" code="IRCApplet.class" archive="irc.jar,pixx.jar" width="640" height="400">
 <param name="CABINETS" value="irc.cab,securedirc.cab,pixx.cab">
-<param name="nick" value="FreePBX????">
+<param name="nick" value="<?php echo (!empty($_GET['nick']) ? $_GET['nick'] : 'FreePBX????') ?>">
 <param name="alternatenick" value="FreePBXU????">
 <param name="host" value="irc.freenode.net">
 <param name="gui" value="pixx">
@@ -51,6 +130,25 @@ switch ($action) {
 <param name="command2" value="/notice #freepbx I am using <?php echo $vers[0][0]." on ".getversioninfo(); ?> ">
 <param name="command3" value="/notice #freepbx My kernel is: <?php echo exec('uname -a'); ?> ">
 </applet>
+
+<script type="text/javascript">
+function promptBeforeExiting (oldLink) {
+	if (confirm("If you leave this page, you will be disconnected from IRC. Are you sure you want to continue?")) {
+		window.location = oldLink;
+	}
+}
+
+function switchLinks(d) {
+	var oldLink="";
+	for (var i=0; i < d.links.length; i++) {
+		if (d.links[i].target == '') {
+			oldLink = d.links[i].href;
+			d.links[i].href = "javascript: promptBeforeExiting('"+ oldLink + "')";
+		}
+	}
+}
+switchLinks(document);
+</script>
 <?
 		// Do IRC stuff
 	break;
