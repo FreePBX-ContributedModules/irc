@@ -1,13 +1,13 @@
 <module>
 	<rawname>irc</rawname>
 	<name>Online Support</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<type>tool</type>
 	<category>Help</category>
 	<menuitems>
 		<irc>Online Support</irc>
 	</menuitems>
-	<location>release/irc-1.0.tgz</location>
+	<location>release/irc-1.0.2.tgz</location>
 	<info>http://aussievoip.com.au/wiki/freePBX-IRC</info>
-	<md5sum>c3be20c3b90a84705ccd224247da197c</md5sum>
+	<md5sum>b75098d20c5f273dc9eb916e73879a0d</md5sum>
 </module>
