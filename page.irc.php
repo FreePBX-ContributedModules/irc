@@ -139,7 +139,7 @@ echo _("If you wish to change this to your normal nickname, you can type '<b>/ni
 <param name="host" value="irc.freenode.net">
 <param name="gui" value="pixx">
 <param name="command1" value="/join #freepbx">
-<param name="command2" value="/notice #freepbx I am using <?php echo $vers[0][0]." on ".getversioninfo(); ?> ">
+<param name="command2" value="/notice #freepbx I am using <?php echo $vers[0][0]." on ".irc_getversioninfo(); ?> ">
 <param name="command3" value="/notice #freepbx My kernel is: <?php echo exec('uname -a'); ?> ">
 </applet>
 
@@ -179,7 +179,7 @@ switchLinks(document);
 
 <ul>
 <li> <?php echo _("Your Linux Distribution:");
-           $ver=getversioninfo();
+           $ver=irc_getversioninfo();
            echo " ($ver)"; ?>
 <li> <?php echo _("Your FreePBX version:");
            $ver=getversion();

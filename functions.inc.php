@@ -1,6 +1,6 @@
 <?
 // Try to determine the distro and kernel of the current machine
-function getversioninfo() {
+function irc_getversioninfo() {
   // Various places that may have the Distro Name..
   $version = "";
   $locations = array('/etc/redhat-release', '/etc/fedora-release', 
