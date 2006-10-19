@@ -3,7 +3,7 @@
 	<name>Online Support</name>
 	<version>1.0.3</version>
 	<type>tool</type>
-	<category>Help</category>
+	<category>Support</category>
 	<menuitems>
 		<irc>Online Support</irc>
 	</menuitems>
