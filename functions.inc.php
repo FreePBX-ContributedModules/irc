@@ -3,15 +3,20 @@
 function irc_getversioninfo() {
   // Various places that may have the Distro Name..
   $version = "";
-  $locations = array('/etc/redhat-release', '/etc/fedora-release', 
-  '/etc/debian_version', '/etc/SuSE-release', '/etc/gentoo-release');
-  foreach ($locations as $loc) {
+  $locations = array(
+  	'Redhat' => '/etc/redhat-release', 
+	'Fedora' => '/etc/fedora-release', 
+	'Debian' => '/etc/debian_version', 
+	'SuSE' => '/etc/SuSE-release', 
+	'Gentoo' => '/etc/gentoo-release'
+  );
+  foreach ($locations as $distro => $loc) {
 	if (is_readable($loc)) {
 		$fh = fopen($loc, "r");
 		if ($version != "") {
-			$version .= " OR ".fgets($fh, 80);
+			$version .= " OR ".$distro.' '.fgets($fh, 80);
 		} else {
-			$version = fgets($fh, 80);
+			$version = $distro.' '.fgets($fh, 80);
 		}
 	}
   }
