@@ -122,7 +122,6 @@ if (isset($_GET['nick'])) {
 <?php
 switch ($action) {
 	case "start":
-	$vers=getversion();
 ?>
 
 <p>
@@ -139,7 +138,7 @@ echo _("If you wish to change this to your normal nickname, you can type '<b>/ni
 <param name="host" value="irc.freenode.net">
 <param name="gui" value="pixx">
 <param name="command1" value="/join #freepbx">
-<param name="command2" value="/notice #freepbx I am using <?php echo $vers[0][0]." on ".irc_getversioninfo(); ?> ">
+<param name="command2" value="/notice #freepbx I am using freePBX <?php echo getversion()." on ".irc_getversioninfo(); ?> ">
 <param name="command3" value="/notice #freepbx My kernel is: <?php echo exec('uname -a'); ?> ">
 </applet>
 
