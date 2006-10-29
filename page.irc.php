@@ -86,8 +86,7 @@ function deleteCookie(name, path, domain) {
 function startirc(element) {
 	var nick = null;
 	nick = getCookie('ircnick');
-	if (nick == 'null') nick = '';
-	
+	if (nick == null) nick = '';
 	nick = prompt("What nickname would you like to use? If you leave this blank, a nick will be automatically generated for you.", nick);
 	if ((nick == null) || (nick == '')) {
 		return true;
