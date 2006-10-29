@@ -109,10 +109,11 @@ if (isset($_GET['nick'])) {
 }
 ?>
 
-<div class="rnav">
+<div class="rnav"><ul>
     <li><a href="config.php?type=tool&display=<?php echo urlencode($display)?>&action=start" onclick="startirc(this);"><?php echo _("Start IRC")?></a></li>
     <li><a href="http://aussievoip.com.au/wiki-FreePBX" target="_new"><?php echo _("Online Documentation")?></a></li>
-</div>
+</ul></div>
+
 <div class="content">
 
 <h2>
