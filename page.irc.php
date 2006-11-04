@@ -89,12 +89,18 @@ function startirc(element) {
 	if (nick == null) nick = '';
 	nick = prompt("What nickname would you like to use? If you leave this blank, a nick will be automatically generated for you.", nick);
 	if ((nick == null) || (nick == '')) {
+		win = window.open("config.php?type=tool&display=<?php echo urlencode($display)?>&action=startreal&quietmode=yes", "IRC Support", "width=660, height=480, location=no, menubar=no, status=no, toolbar=no, scrollbars=no");
+		win.resizeTo(660, 480);
+		win.focus();
 		return true;
 	} else {
 		var expiry = new Date();
 		expiry.setTime(expiry.getTime() + 60 * 60 * 24 * 30); // 30 days
 		setCookie('ircnick', nick, expiry);
 		element.href += '&nick='+nick;
+		win = window.open("config.php?type=tool&display=<?php echo urlencode($display)?>&action=startreal&quietmode=yes&nick="+nick, "IRC Support", "width=660, height=480, location=no, menubar=no, status=no, toolbar=no, scrollbars=no");
+		win.resizeTo(660, 480);
+		win.focus();
 		return true;
 	}
 }
@@ -106,6 +112,9 @@ if (isset($_GET['nick'])) {
 } else {
 	$nick = '';
 }
+
+// Supress all this when the IRC window pops out.
+if (!$quietmode) {
 ?>
 
 <div class="rnav"><ul>
@@ -120,14 +129,17 @@ if (isset($_GET['nick'])) {
 </h2>
 
 <?php
+} // End header supression
 switch ($action) {
 	case "start":
 ?>
-
 <p>
 <?php 
 if (empty($nick)) echo _("When you connect, you will be automatically be named 'FreePBX' and a random 4 digit number, eg, FreePBX3486.");
 echo _("If you wish to change this to your normal nickname, you can type '<b>/nick yournickname</b>', and your nick will change. This is an ENGLISH ONLY support channel. Sorry.");
+
+	break;
+	case "startreal":
 ?>
 </p>
 
@@ -168,10 +180,6 @@ switchLinks(document);
 
 <?php echo _("This allows you to contact the FreePBX channel on IRC."); ?>
 
-<?php echo _("Note that when you click anywhere else, you will close your IRC session."); ?>
-
-<?php echo _("It's suggested to use <b>'Open Link in New Window'</b> or <b>'Open Link In New Tab'</b> with Mozilla or Firefox."); ?>
-
 <?php echo _("As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent Systems, or any other party can not be held responsible for the actions or behaviour of other people on the network"); ?>
 
 <?php echo _("When you connect to IRC, to assist in support, the IRC client will automatically send the following information to everyone in the #freePBX channel:"); ?>
@@ -182,7 +190,7 @@ switchLinks(document);
            echo " ($ver)"; ?>
 <li> <?php echo _("Your FreePBX version:");
            $ver=getversion();
-           echo " (".$ver[0][0].")"; ?>
+           echo " (".$ver.")"; ?>
 <li> <?php echo _("Your Kernel version:");
            $ver=exec('uname -a');
            echo " ($ver)"; ?>
