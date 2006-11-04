@@ -9,7 +9,7 @@
 	<menuitems>
 		<irc>Online Support</irc>
 	</menuitems>
-	<location>release//2.2/irc-1.0.3.tgz</location>
+	<location>release/2.2/irc-1.1.tgz</location>
 	<info>http://aussievoip.com.au/wiki/freePBX-IRC</info>
-	<md5sum>f0c5f2126e90ce1983214a6f5c784e52</md5sum>
+	<md5sum>620dbb757ab2c1bc1a8177f5f4fbab80</md5sum>
 </module>
