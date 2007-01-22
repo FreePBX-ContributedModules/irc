@@ -1,15 +1,18 @@
 <module>
 	<rawname>irc</rawname>
 	<name>Online Support</name>
-	<version>1.1</version>
+	<version>1.1.1</version>
 	<type>tool</type>
 	<category>Support</category>
 	<description>This module lets you connect to the IRC network where developers and other users chat. You can chat to the developers live, if you have problems</description>
-	<changelog>*1.1* First release for 2.2, changed the window so it pops-out of the normal web page</changelog>
+	<changelog>
+		*1.1.1* Add he_IL translation
+		*1.1* First release for 2.2, changed the window so it pops-out of the normal web page
+	</changelog>
 	<menuitems>
 		<irc>Online Support</irc>
 	</menuitems>
-	<location>release/2.2/irc-1.1.tgz</location>
+	<location>release/2.2/irc-1.1.1.tgz</location>
 	<info>http://aussievoip.com.au/wiki/freePBX-IRC</info>
-	<md5sum>620dbb757ab2c1bc1a8177f5f4fbab80</md5sum>
+	<md5sum>64143ea353cc26da431319df0019890d</md5sum>
 </module>
