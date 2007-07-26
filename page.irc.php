@@ -172,7 +172,7 @@ function switchLinks(d) {
 }
 switchLinks(document);
 </script>
-<?
+<?php
 		// Do IRC stuff
 	break;
 	case "":

@@ -1,4 +1,4 @@
-<?
+<?php
 // Try to determine the distro and kernel of the current machine
 function irc_getversioninfo() {
   // Various places that may have the Distro Name..
