@@ -119,7 +119,7 @@ if (!$quietmode) {
 
 <div class="rnav"><ul>
     <li><a href="config.php?type=tool&display=<?php echo urlencode($display)?>&action=start" onclick="startirc(this);"><?php echo _("Start IRC")?></a></li>
-    <li><a href="http://aussievoip.com.au/wiki-FreePBX" target="_new"><?php echo _("Online Documentation")?></a></li>
+    <li><a href="http://www.freepbx.org" target="_docs"><?php echo _("Online Resources")?></a></li>
 </ul></div>
 
 <div class="content">
