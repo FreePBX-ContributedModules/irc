@@ -87,7 +87,7 @@ function startirc(element) {
 	var nick = null;
 	nick = getCookie('ircnick');
 	if (nick == null) nick = '';
-	nick = prompt("What nickname would you like to use? If you leave this blank, a nick will be automatically generated for you.", nick);
+	nick = prompt("<?php echo _("What nickname would you like to use? If you leave this blank, a nick will be automatically generated for you.")?>", nick);
 	if ((nick == null) || (nick == '')) {
 		win = window.open("config.php?type=tool&display=<?php echo urlencode($display)?>&action=startreal&quietmode=yes", "IRC Support", "width=660, height=480, location=no, menubar=no, status=no, toolbar=no, scrollbars=no");
 		win.resizeTo(660, 480);
