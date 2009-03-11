@@ -151,7 +151,6 @@ echo _("If you wish to change this to your normal nickname, you can type '<b>/ni
 <param name="gui" value="pixx">
 <param name="command1" value="/join #freepbx">
 <param name="command2" value="/notice #freepbx I am using freePBX <?php echo getversion()." on ".irc_getversioninfo(); ?> ">
-<param name="command3" value="/notice #freepbx My kernel is: <?php echo exec('uname -a'); ?> ">
 </applet>
 
 <script type="text/javascript">
@@ -191,9 +190,6 @@ switchLinks(document);
 <li> <?php echo _("Your FreePBX version:");
            $ver=getversion();
            echo " (".$ver.")"; ?>
-<li> <?php echo _("Your Kernel version:");
-           $ver=exec('uname -a');
-           echo " ($ver)"; ?>
 </ul>
 <?php echo _("If you do not want this information to be made public, please use another IRC client, or contact a commercial support provider");
 break;
