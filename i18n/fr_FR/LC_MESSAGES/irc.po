@@ -15,7 +15,6 @@
 #
 # Copyright (C) 2009 Séverine GUTIERREZ, severine@medialsace.fr
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -74,7 +73,7 @@ msgstr "Ceci vous permet de contacter le canal IRC de FreePBX."
 msgid ""
 "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent "
 "Systems, or any other party can not be held responsible for the actions or "
-"behaviour of other people on the network"
+"behavior of other people on the network"
 msgstr ""
 "Comme IRC est un médium international non modéré, AMP, FreePBX, Coalescent "
 "Systems, ou tout autre parti ne peut être tenu pour responsable des actions "

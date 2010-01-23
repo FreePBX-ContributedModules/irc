@@ -1,3 +1,20 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Copyright (C) 2008, 2009 Juan Asensio Sánchez <okelet@gmail.com>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX - módulo irc module spanish translation\n"
@@ -42,7 +59,7 @@ msgid "This allows you to contact the FreePBX channel on IRC."
 msgstr "Esto le permite conectarse al canal de FreePBX mediante IRC."
 
 #: page.irc.php:183
-msgid "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent Systems, or any other party can not be held responsible for the actions or behaviour of other people on the network"
+msgid "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent Systems, or any other party can not be held responsible for the actions or behavior of other people on the network"
 msgstr "Ya que IRC es un medio internacional sin moderar, AMP, FreePBX, Coalescent Systems o cualquier otro no se hacen responsables de las acciones o comportamientos de otras personas"
 
 #: page.irc.php:185

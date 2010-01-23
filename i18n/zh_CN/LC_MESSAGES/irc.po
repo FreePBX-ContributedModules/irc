@@ -1,7 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Copyright (C) 2008, 2009 EdwardBadBoy <zhougongjizhe@163.com>
 #
 msgid ""
 msgstr ""
@@ -47,7 +59,7 @@ msgid "This allows you to contact the FreePBX channel on IRC."
 msgstr "这可以让你连接到FreePBX频道进行在先聊天。"
 
 #: page.irc.php:183
-msgid "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent Systems, or any other party can not be held responsible for the actions or behaviour of other people on the network"
+msgid "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent Systems, or any other party can not be held responsible for the actions or behavior of other people on the network"
 msgstr "在线聊天系统（IRC）是一种没有什么规范和法规的世界性的交流介质，AMP、FreePBX、Coalescent Systems或者其他组织都不对在这种网络上活动的其他人的行为负责"
 
 #: page.irc.php:185

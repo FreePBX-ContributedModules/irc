@@ -1,16 +1,30 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
 # Russian freePBX ver. translation
 # Copyright (c) 2006-2008 PostMet Corporation
 # This file is distributed under the same license as the freePBX package.
 # Alexander Kozyrev <ceo@postmet.com>, Sergey Nikolayev <sergey@postmet.com>, 2006-2008.
 #
 # Использовать iconv amp.new -f UTF-8 -t ISO-8859-5 -o amp.po
-# fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-04-19 21:45+0100\n"
-"PO-Revision-Date: 2008-01-31 16:38+0100\n"
+"PO-Revision-Date: 2010-01-23 00:00+0100\n"
 "Last-Translator: Alexander Kozyrev <ceo@postmet.com>\n"
 "Language-Team: Russian <faq@postmet.com>\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +68,7 @@ msgstr "Этот модуль даёт возможность соединится с каналом FreePBX в IRC."
 msgid ""
 "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent "
 "Systems, or any other party can not be held responsible for the actions or "
-"behaviour of other people on the network"
+"behavior of other people on the network"
 msgstr ""
 "IRC - это немодерируемая интернациональная среда общения, AMP, FreePBX, Coalescent "
 "Systems или какие-то другие системы не могут регулировать поведение людей в сети." 
