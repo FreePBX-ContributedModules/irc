@@ -181,7 +181,7 @@ switchLinks(document);
 
 <?php echo _("As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent Systems, or any other party can not be held responsible for the actions or behavior of other people on the network"); ?>
 
-<?php echo _("When you connect to IRC, to assist in support, the IRC client will automatically send the following information to everyone in the #freePBX channel:"); ?>
+<?php echo _("When you connect to IRC, to assist in support, the IRC client will automatically send the following information to everyone in the #freepbx channel:"); ?>
 
 <ul>
 <li> <?php echo _("Your Linux Distribution:");
