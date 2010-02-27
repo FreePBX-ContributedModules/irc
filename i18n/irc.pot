@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 13:45+0100\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,74 +28,60 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: irc/irc.i18n.php:5 irc/irc.i18n.php:11 irc/page.irc.php:128
 msgid "Online Support"
 msgstr ""
 
-#: irc/irc.i18n.php:7
 msgid "Support"
 msgstr ""
 
-#: irc/irc.i18n.php:9
 msgid ""
 "This module lets you connect to the IRC network where developers and other "
 "users chat. You can chat to the developers live, if you have problems"
 msgstr ""
 
-#: irc/page.irc.php:90
 msgid ""
 "What nickname would you like to use? If you leave this blank, a nick will be "
 "automatically generated for you."
 msgstr ""
 
-#: irc/page.irc.php:121
 msgid "Start IRC"
 msgstr ""
 
-#: irc/page.irc.php:122
 msgid "Online Resources"
 msgstr ""
 
-#: irc/page.irc.php:138
 msgid ""
 "When you connect, you will be automatically be named 'FreePBX' and a random "
 "4 digit number, eg, FreePBX3486."
 msgstr ""
 
-#: irc/page.irc.php:139
 msgid ""
 "If you wish to change this to your normal nickname, you can type '<b>/nick "
 "yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
 "support channel. Sorry."
 msgstr ""
 
-#: irc/page.irc.php:180
 msgid "This allows you to contact the FreePBX channel on IRC."
 msgstr ""
 
-#: irc/page.irc.php:182
 msgid ""
 "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent "
 "Systems, or any other party can not be held responsible for the actions or "
 "behavior of other people on the network"
 msgstr ""
 
-#: irc/page.irc.php:184
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
 "channel:"
 msgstr ""
 
-#: irc/page.irc.php:187
 msgid "Your Linux Distribution:"
 msgstr ""
 
-#: irc/page.irc.php:190
 msgid "Your FreePBX version:"
 msgstr ""
 
-#: irc/page.irc.php:194
 msgid ""
 "If you do not want this information to be made public, please use another "
 "IRC client, or contact a commercial support provider"
