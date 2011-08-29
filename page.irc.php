@@ -19,8 +19,6 @@ $display='irc';
 $type = 'tool';
 
 ?>
-
-</div> 
 <script type="text/javascript">
 /**
  * Sets a Cookie with the given name and value.
@@ -121,9 +119,6 @@ if (!$quietmode) {
     <li><a href="config.php?type=tool&display=<?php echo urlencode($display)?>&action=start" onclick="startirc(this);"><?php echo _("Start IRC")?></a></li>
     <li><a href="http://www.freepbx.org" target="_docs"><?php echo _("Online Resources")?></a></li>
 </ul></div>
-
-<div class="content">
-
 <h2>
 <?php echo _("Online Support")?>
 </h2>
