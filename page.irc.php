@@ -14,6 +14,8 @@
 //MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //GNU General Public License for more details.
 
+if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
+
 isset($_REQUEST['action'])?$action = $_REQUEST['action']:$action = '';
 $display='irc';
 $type = 'tool';
