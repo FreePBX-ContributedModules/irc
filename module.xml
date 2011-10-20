@@ -16,6 +16,6 @@
 	<menuitems>
 		<irc>Online Support</irc>
 	</menuitems>
-	<location>release/2.10/irc-2.10.0.0.tgz</location>
-	<md5sum>a94b955647411a5d23dd6c1a97e99f2f</md5sum>
+	<location>release/2.10/irc-2.10.0.1.tgz</location>
+	<md5sum>5e0ec1a1b6f2b36ba1cf6caf4bd2a060</md5sum>
 </module>
