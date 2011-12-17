@@ -1,4 +1,5 @@
 <?php
+if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 // Try to determine the distro and kernel of the current machine
 function irc_getversioninfo() {
   // Various places that may have the Distro Name..
