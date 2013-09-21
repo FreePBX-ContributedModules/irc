@@ -176,7 +176,7 @@ switchLinks(document);
 
 <?php echo _("This allows you to contact the FreePBX channel on IRC."); ?>
 
-<?php echo _("As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent Systems, or any other party can not be held responsible for the actions or behavior of other people on the network"); ?>
+<?php echo _("As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc or any other party can not be held responsible for the actions or behavior of other people on the network"); ?>
 
 <?php echo _("When you connect to IRC, to assist in support, the IRC client will automatically send the following information to everyone in the #freepbx channel:"); ?>
 
@@ -191,6 +191,3 @@ switchLinks(document);
 <?php echo _("If you do not want this information to be made public, please use another IRC client, or contact a commercial support provider");
 break;
 }
-?>
-
-
