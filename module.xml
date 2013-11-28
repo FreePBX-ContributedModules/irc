@@ -17,4 +17,4 @@
 	</menuitems>
 	<location>release/2.10/irc-2.10.0.0.tgz</location>
 	<md5sum>a94b955647411a5d23dd6c1a97e99f2f</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>
