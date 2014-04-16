@@ -2,12 +2,14 @@
   <rawname>irc</rawname>
   <repo>extended</repo>
   <name>Online Support</name>
-  <version>2.11.0.1</version>
-  <publisher>FreePBX</publisher>
-  <license>GPLv2+</license>
+  <version>2.11.0.2</version>
+  <publisher>Schmooze Com Inc</publisher>
+  <license>GPLv3+</license>
+  <licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
   <description>This module lets you connect to the IRC network where developers and other users chat. You can chat to the developers live, if you have problems</description>
   <changelog>
+  		*2.11.0.2* Include license file
 		*2.11.0.1* Remove old company name.
 		*2.11.0.0* bump version
 		*2.10.0.2* #5478 

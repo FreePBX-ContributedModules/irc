@@ -1,18 +1,5 @@
 <?php 
 /* $Id$ */
-// Module for offering IRC Support using PJIRC. 
-//
-// Original Release using PJIRC 2.2.0 on 17th Feb, 2006 by
-// xrobau@gmail.com
-//
-//This program is free software; you can redistribute it and/or
-//modify it under the terms of version 2 of the GNU General Public
-//License as published by the Free Software Foundation.
-//
-//This program is distributed in the hope that it will be useful,
-//but WITHOUT ANY WARRANTY; without even the implied warranty of
-//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//GNU General Public License for more details.
 
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 
