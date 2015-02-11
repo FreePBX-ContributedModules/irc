@@ -35,17 +35,22 @@ msgid "Online Support"
 msgstr "Онлайн поддержка"
 
 msgid "Admin"
-msgstr ""
+msgstr "Админ"
 
 msgid ""
 "This module lets you connect to the IRC network where developers and other "
 "users chat. You can chat to the developers live, if you have problems"
 msgstr ""
+"Этот модуль позволяет вам подключится к IRC сети, где общаются разработчки и "
+"другие пользователи. Вы можете общаться с разработчиками в режиме онлайн, если "
+"у вас возникли какие то проблеммы. "
 
 msgid ""
 "What nickname would you like to use? If you leave this blank, a nick will be "
 "automatically generated for you."
 msgstr ""
+"Какой никнейм хотели бы вы использовать? Если оставить это поле пустым, "
+"никнейм будет сгенерирован автоматически "
 
 msgid "Start IRC"
 msgstr "Старт IRC"
