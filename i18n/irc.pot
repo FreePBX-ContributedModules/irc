@@ -1,11 +1,15 @@
-# FreePBX language template
-# Copyright 2013 Schmooze Com Inc
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for irc
+# Copyright (C) 2008-2015 Sangoma, Inc.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2015-02-11 17:58-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,61 +17,65 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Online Support"
-msgstr ""
-
-msgid "Admin"
-msgstr ""
-
+#: /usr/src/freepbx/irc/page.irc.php:166
 msgid ""
-"This module lets you connect to the IRC network where developers and other "
-"users chat. You can chat to the developers live, if you have problems"
+"As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
+"or any other party can not be held responsible for the actions or behavior "
+"of other people on the network"
 msgstr ""
 
+#: /usr/src/freepbx/irc/page.irc.php:178
 msgid ""
-"What nickname would you like to use? If you leave this blank, a nick will be "
-"automatically generated for you."
+"If you do not want this information to be made public, please use another "
+"IRC client, or contact a commercial support provider"
 msgstr ""
 
-msgid "Start IRC"
-msgstr ""
-
-msgid "Online Resources"
-msgstr ""
-
-msgid ""
-"When you connect, you will be automatically be named 'FreePBX' and a random "
-"4 digit number, eg, FreePBX3486."
-msgstr ""
-
+#: /usr/src/freepbx/irc/page.irc.php:123
 msgid ""
 "If you wish to change this to your normal nickname, you can type '<b>/nick "
 "yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
 "support channel. Sorry."
 msgstr ""
 
+#: /usr/src/freepbx/irc/page.irc.php:109
+msgid "Online Resources"
+msgstr ""
+
+#: /usr/src/freepbx/irc/page.irc.php:112
+msgid "Online Support"
+msgstr ""
+
+#: /usr/src/freepbx/irc/page.irc.php:108
+msgid "Start IRC"
+msgstr ""
+
+#: /usr/src/freepbx/irc/page.irc.php:164
 msgid "This allows you to contact the FreePBX channel on IRC."
 msgstr ""
 
+#: /usr/src/freepbx/irc/page.irc.php:77
 msgid ""
-"As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent "
-"Systems, or any other party can not be held responsible for the actions or "
-"behavior of other people on the network"
+"What nickname would you like to use? If you leave this blank, a nick will be "
+"automatically generated for you."
 msgstr ""
 
+#: /usr/src/freepbx/irc/page.irc.php:168
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
 "channel:"
 msgstr ""
 
-msgid "Your Linux Distribution:"
+#: /usr/src/freepbx/irc/page.irc.php:122
+msgid ""
+"When you connect, you will be automatically be named 'FreePBX' and a random "
+"4 digit number, eg, FreePBX3486."
 msgstr ""
 
+#: /usr/src/freepbx/irc/page.irc.php:174
 msgid "Your FreePBX version:"
 msgstr ""
 
-msgid ""
-"If you do not want this information to be made public, please use another "
-"IRC client, or contact a commercial support provider"
+#: /usr/src/freepbx/irc/page.irc.php:171
+msgid "Your Linux Distribution:"
 msgstr ""
