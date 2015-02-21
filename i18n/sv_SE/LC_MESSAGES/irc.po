@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX irc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 17:58-0500\n"
+"POT-Creation-Date: 2015-02-20 19:36-0500\n"
 "PO-Revision-Date: 2010-01-23 00:00+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
@@ -29,14 +29,18 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 
-#: /usr/src/freepbx/irc/page.irc.php:166
+#: irc.i18n.php:4
+msgid "Admin"
+msgstr ""
+
+#: page.irc.php:166
 msgid ""
 "As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
 "or any other party can not be held responsible for the actions or behavior "
 "of other people on the network"
 msgstr ""
 
-#: /usr/src/freepbx/irc/page.irc.php:178
+#: page.irc.php:178
 msgid ""
 "If you do not want this information to be made public, please use another "
 "IRC client, or contact a commercial support provider"
@@ -44,7 +48,7 @@ msgstr ""
 "Om du inte vill att denna information ska vara tillgänglig för andra måste "
 "du använda en annan IRC-klient eller kontakta någon annan typ av support"
 
-#: /usr/src/freepbx/irc/page.irc.php:123
+#: page.irc.php:123
 msgid ""
 "If you wish to change this to your normal nickname, you can type '<b>/nick "
 "yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
@@ -54,24 +58,33 @@ msgstr ""
 "dittalias</b>', och ditt alias kommer att bytas ut. Supporten är tyvärr "
 "endast på ENGELSKA. "
 
-#: /usr/src/freepbx/irc/page.irc.php:109
+#: page.irc.php:109
 msgid "Online Resources"
 msgstr "Resurser på Internet"
 
-#: /usr/src/freepbx/irc/page.irc.php:112
+#: irc.i18n.php:3 /usr/src/freepbx/irc/irc.i18n.php:6 page.irc.php:112
 msgid "Online Support"
 msgstr "On-line support"
 
-#: /usr/src/freepbx/irc/page.irc.php:108
+#: page.irc.php:108
 msgid "Start IRC"
 msgstr "Starta IRC"
 
-#: /usr/src/freepbx/irc/page.irc.php:164
+#: page.irc.php:164
 msgid "This allows you to contact the FreePBX channel on IRC."
 msgstr ""
 "Denna modul kopplar upp dig mot FreePBX-kanalen på IRC (Internet Relay Chat)."
 
-#: /usr/src/freepbx/irc/page.irc.php:77
+#: irc.i18n.php:5
+msgid ""
+"This module lets you connect to the IRC network where developers and other "
+"users chat. You can chat to the developers live, if you have problems"
+msgstr ""
+"Denna modul ger dig möjlighet att koppla upp mot IRC där utvecklare och "
+"andra användare håller till. Du kan kommunicera i realtid med utvecklare om "
+"du har problem"
+
+#: page.irc.php:77
 msgid ""
 "What nickname would you like to use? If you leave this blank, a nick will be "
 "automatically generated for you."
@@ -79,7 +92,7 @@ msgstr ""
 "Vilken alias vill du använda? Om du lämnar detta tomt kommer ett alias att "
 "automatiskt att skapas för dig."
 
-#: /usr/src/freepbx/irc/page.irc.php:168
+#: page.irc.php:168
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
@@ -89,7 +102,7 @@ msgstr ""
 "klienten att automatiskt skicka följande information som alla i #freepbx-"
 "kanalen kan se:"
 
-#: /usr/src/freepbx/irc/page.irc.php:122
+#: page.irc.php:122
 msgid ""
 "When you connect, you will be automatically be named 'FreePBX' and a random "
 "4 digit number, eg, FreePBX3486."
@@ -97,22 +110,13 @@ msgstr ""
 "När du kopplar upp kommer du automatiskt att få namnet 'FreePBX' och ett "
 "slumpmässig 4-siffrigt nummer, t.ex FreePBX3486."
 
-#: /usr/src/freepbx/irc/page.irc.php:174
+#: page.irc.php:174
 msgid "Your FreePBX version:"
 msgstr "Din version av FreePBX:"
 
-#: /usr/src/freepbx/irc/page.irc.php:171
+#: page.irc.php:171
 msgid "Your Linux Distribution:"
 msgstr "Din Linuxdistribution:"
-
-#~ msgid ""
-#~ "This module lets you connect to the IRC network where developers and "
-#~ "other users chat. You can chat to the developers live, if you have "
-#~ "problems"
-#~ msgstr ""
-#~ "Denna modul ger dig möjlighet att koppla upp mot IRC där utvecklare och "
-#~ "andra användare håller till. Du kan kommunicera i realtid med utvecklare "
-#~ "om du har problem"
 
 #~ msgid ""
 #~ "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent "

@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 17:58-0500\n"
+"POT-Creation-Date: 2015-02-20 19:36-0500\n"
 "PO-Revision-Date: 2013-11-07 13:09+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -47,7 +47,11 @@ msgstr ""
 "Language: Japanese\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#: /usr/src/freepbx/irc/page.irc.php:166
+#: irc.i18n.php:4
+msgid "Admin"
+msgstr "アドミン"
+
+#: page.irc.php:166
 msgid ""
 "As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
 "or any other party can not be held responsible for the actions or behavior "
@@ -57,7 +61,7 @@ msgstr ""
 "ティーはネットワーク上の他の人のアクションや振る舞いに責任をもつことができま"
 "せん。"
 
-#: /usr/src/freepbx/irc/page.irc.php:178
+#: page.irc.php:178
 msgid ""
 "If you do not want this information to be made public, please use another "
 "IRC client, or contact a commercial support provider"
@@ -65,7 +69,7 @@ msgstr ""
 "この情報を公にしたくない場合は、他のIRCクライアントを使用するか、商用のサポー"
 "トプロバイダーへ連絡してください。"
 
-#: /usr/src/freepbx/irc/page.irc.php:123
+#: page.irc.php:123
 msgid ""
 "If you wish to change this to your normal nickname, you can type '<b>/nick "
 "yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
@@ -75,23 +79,32 @@ msgstr ""
 "yournickname</b>'と打ち込んでニックネームを変更することができます。これは英語"
 "のみがサポートされたチャネルです。"
 
-#: /usr/src/freepbx/irc/page.irc.php:109
+#: page.irc.php:109
 msgid "Online Resources"
 msgstr "オンラインリソース"
 
-#: /usr/src/freepbx/irc/page.irc.php:112
+#: irc.i18n.php:3 /usr/src/freepbx/irc/irc.i18n.php:6 page.irc.php:112
 msgid "Online Support"
 msgstr "オンラインサポート"
 
-#: /usr/src/freepbx/irc/page.irc.php:108
+#: page.irc.php:108
 msgid "Start IRC"
 msgstr "IRCを開始する"
 
-#: /usr/src/freepbx/irc/page.irc.php:164
+#: page.irc.php:164
 msgid "This allows you to contact the FreePBX channel on IRC."
 msgstr "ここではIRC上のFreePBXチャネルにコンタクトをとることができます。"
 
-#: /usr/src/freepbx/irc/page.irc.php:77
+#: irc.i18n.php:5
+msgid ""
+"This module lets you connect to the IRC network where developers and other "
+"users chat. You can chat to the developers live, if you have problems"
+msgstr ""
+"このモジュールを使用してあなたは開発者や他のユーザーがチャットをしているIRC"
+"ネットワークへ接続することができます。もし問題を抱えた場合にリアルタイムで開"
+"発者とチャットをすることができます。"
+
+#: page.irc.php:77
 msgid ""
 "What nickname would you like to use? If you leave this blank, a nick will be "
 "automatically generated for you."
@@ -99,7 +112,7 @@ msgstr ""
 "どのようなニックネームを使用したいですか？空白にした場合、あなたのニックネー"
 "ムは自動生成されます。"
 
-#: /usr/src/freepbx/irc/page.irc.php:168
+#: page.irc.php:168
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
@@ -108,7 +121,7 @@ msgstr ""
 "あなたがサポートの援助をするためにIRCに接続した時、IRCクライアントは自動的に"
 "次の情報を #freepbx channelにいる人全員に送ります。"
 
-#: /usr/src/freepbx/irc/page.irc.php:122
+#: page.irc.php:122
 msgid ""
 "When you connect, you will be automatically be named 'FreePBX' and a random "
 "4 digit number, eg, FreePBX3486."
@@ -116,22 +129,10 @@ msgstr ""
 "接続時には自動的に'FreePBX'プラスランダムな4桁の数字の名前が付けられます。"
 "例：FreePBX3486。"
 
-#: /usr/src/freepbx/irc/page.irc.php:174
+#: page.irc.php:174
 msgid "Your FreePBX version:"
 msgstr "あなたのFreePBXバージョン："
 
-#: /usr/src/freepbx/irc/page.irc.php:171
+#: page.irc.php:171
 msgid "Your Linux Distribution:"
 msgstr "あなたのLinuxディストリビューション："
-
-#~ msgid "Admin"
-#~ msgstr "アドミン"
-
-#~ msgid ""
-#~ "This module lets you connect to the IRC network where developers and "
-#~ "other users chat. You can chat to the developers live, if you have "
-#~ "problems"
-#~ msgstr ""
-#~ "このモジュールを使用してあなたは開発者や他のユーザーがチャットをしている"
-#~ "IRCネットワークへ接続することができます。もし問題を抱えた場合にリアルタイ"
-#~ "ムで開発者とチャットをすることができます。"
