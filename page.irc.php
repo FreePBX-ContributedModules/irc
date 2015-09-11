@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* $Id$ */
 
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
@@ -85,8 +85,8 @@ function startirc(element) {
 		expiry.setTime(expiry.getTime() + 60 * 60 * 24 * 30); // 30 days
 		setCookie('ircnick', nick, expiry);
 		element.href += '&nick='+nick;
-		win = window.open("config.php?type=tool&display=<?php echo urlencode($display)?>&action=startreal&quietmode=yes&nick="+nick, "IRC Support", "width=660, height=480, location=no, menubar=no, status=no, toolbar=no, scrollbars=no");
-		win.resizeTo(660, 480);
+		win = window.open("config.php?type=tool&display=<?php echo urlencode($display)?>&action=startreal&quietmode=yes&nick="+nick, "IRC Support", "width=900, height=600, location=no, menubar=no, status=no, toolbar=no, scrollbars=no");
+		win.resizeTo(900, 600);
 		win.focus();
 		return true;
 	}
@@ -118,7 +118,7 @@ switch ($action) {
 	case "start":
 ?>
 <p>
-<?php 
+<?php
 if (empty($nick)) echo _("When you connect, you will be automatically be named 'FreePBX' and a random 4 digit number, eg, FreePBX3486.");
 echo _("If you wish to change this to your normal nickname, you can type '<b>/nick yournickname</b>', and your nick will change. This is an ENGLISH ONLY support channel. Sorry.");
 
@@ -126,16 +126,12 @@ echo _("If you wish to change this to your normal nickname, you can type '<b>/ni
 	case "startreal":
 ?>
 </p>
-
-<applet name="PJirc" codebase="modules/irc/pjirc/" code="IRCApplet.class" archive="irc.jar,pixx.jar" width="640" height="400">
-<param name="CABINETS" value="irc.cab,securedirc.cab,pixx.cab">
-<param name="nick" value="<?php echo (!empty($nick) ? $nick : 'FreePBX????') ?>">
-<param name="alternatenick" value="<?php echo (!empty($nick) ? $nick.'_' : 'FreePBXU????') ?>">
-<param name="host" value="irc.freenode.net">
-<param name="gui" value="pixx">
-<param name="command1" value="/join #freepbx">
-<param name="command2" value="/notice #freepbx I am using freePBX <?php echo getversion()." on ".irc_getversioninfo(); ?> ">
-</applet>
+<style>
+  body {
+    margin: 0;
+  }
+</style>
+<iframe src="https://kiwiirc.com/client/chat.freenode.net/?nick=<?php echo (!empty($nick) ? $nick : 'FreePBX????') ?>|?#freepbx" style="border:0; width:100%; height:100%;"></iframe>
 
 <script type="text/javascript">
 function promptBeforeExiting (oldLink) {
