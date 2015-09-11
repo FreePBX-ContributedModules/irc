@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:36-0500\n"
+"POT-Creation-Date: 2015-09-11 12:54-0700\n"
 "PO-Revision-Date: 2009-02-01 18:25+0800\n"
 "Last-Translator: 周征晟 <zhougongjizhe@163.com>\n"
 "Language-Team: EdwardBadBoy <zhougongjizhe@163.com>\n"
@@ -30,18 +30,14 @@ msgstr ""
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: irc.i18n.php:4
-msgid "Admin"
-msgstr ""
-
-#: page.irc.php:166
+#: page.irc.php:162
 msgid ""
 "As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
 "or any other party can not be held responsible for the actions or behavior "
 "of other people on the network"
 msgstr ""
 
-#: page.irc.php:178
+#: page.irc.php:174
 msgid ""
 "If you do not want this information to be made public, please use another "
 "IRC client, or contact a commercial support provider"
@@ -62,7 +58,7 @@ msgstr ""
 msgid "Online Resources"
 msgstr "在线资源"
 
-#: irc.i18n.php:3 /usr/src/freepbx/irc/irc.i18n.php:6 page.irc.php:112
+#: page.irc.php:112
 msgid "Online Support"
 msgstr "在线支持"
 
@@ -70,15 +66,9 @@ msgstr "在线支持"
 msgid "Start IRC"
 msgstr "开始在线聊天"
 
-#: page.irc.php:164
+#: page.irc.php:160
 msgid "This allows you to contact the FreePBX channel on IRC."
 msgstr "这可以让你连接到FreePBX频道进行在先聊天。"
-
-#: irc.i18n.php:5
-msgid ""
-"This module lets you connect to the IRC network where developers and other "
-"users chat. You can chat to the developers live, if you have problems"
-msgstr ""
 
 #: page.irc.php:77
 msgid ""
@@ -86,7 +76,7 @@ msgid ""
 "automatically generated for you."
 msgstr "你希望使用什么昵称？如果你不填写，那么系统会自动为你生成一个昵称。"
 
-#: page.irc.php:168
+#: page.irc.php:164
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
@@ -103,11 +93,11 @@ msgstr ""
 "在连接时，你会被系统自动赋予一个名字，名字以“FreePBX”开头，接着有四位随机数"
 "字，例如，FreePBX3486。"
 
-#: page.irc.php:174
+#: page.irc.php:170
 msgid "Your FreePBX version:"
 msgstr "你的FreePBX版本"
 
-#: page.irc.php:171
+#: page.irc.php:167
 msgid "Your Linux Distribution:"
 msgstr "你的Linux发行版本："
 
@@ -116,5 +106,6 @@ msgstr "你的Linux发行版本："
 #~ "Systems, or any other party can not be held responsible for the actions "
 #~ "or behavior of other people on the network"
 #~ msgstr ""
-#~ "在线聊天系统（IRC）是一种没有什么规范和法规的世界性的交流介质，AMP、FreePBX、Coalescent "
-#~ "Systems或者其他组织都不对在这种网络上活动的其他人的行为负责"
+#~ "在线聊天系统（IRC）是一种没有什么规范和法规的世界性的交流介质，AMP、"
+#~ "FreePBX、Coalescent Systems或者其他组织都不对在这种网络上活动的其他人的行"
+#~ "为负责"
