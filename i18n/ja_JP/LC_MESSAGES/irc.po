@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 12:54-0700\n"
+"POT-Creation-Date: 2015-11-13 14:50-0800\n"
 "PO-Revision-Date: 2013-11-07 13:09+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -47,17 +47,40 @@ msgstr ""
 "Language: Japanese\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#: page.irc.php:162
-msgid ""
-"As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
-"or any other party can not be held responsible for the actions or behavior "
-"of other people on the network"
-msgstr ""
-"IRCは自己責任の国際的メディアなので、FreePBX, Schmoozecom, Inc.や他のパー"
-"ティーはネットワーク上の他の人のアクションや振る舞いに責任をもつことができま"
-"せん。"
+#: irc.i18n.php:6 /usr/src/freepbx/irc/irc.i18n.php:12
+msgid "Admin"
+msgstr "アドミン"
 
-#: page.irc.php:174
+#: page.irc.php:159
+#, php-format
+msgid ""
+"As IRC is an un-moderated international medium, %s, Sangoma, Inc or any "
+"other party can not be held responsible for the actions or behavior of other "
+"people on the network"
+msgstr ""
+
+#: page.irc.php:177
+msgid ""
+"Be patient. Sometimes no one will see your question for quite a while if "
+"they are away from the computer or busy elsewhere. Sometimes people are "
+"chatting but no one answers your question. Just ask your question and hang "
+"out in the channel until you see some activity or find someone willing to "
+"assist you. Do not ask every two minutes. If no-one answers you may ask "
+"again 15 to 20 minutes later."
+msgstr ""
+
+#: page.irc.php:182
+msgid "I agree to the rules and terms above"
+msgstr ""
+
+#: page.irc.php:179
+#, php-format
+msgid ""
+"If you do not agree these rules, please feel free not to use any of the %s's "
+"IRC channels."
+msgstr ""
+
+#: page.irc.php:171
 msgid ""
 "If you do not want this information to be made public, please use another "
 "IRC client, or contact a commercial support provider"
@@ -65,7 +88,7 @@ msgstr ""
 "この情報を公にしたくない場合は、他のIRCクライアントを使用するか、商用のサポー"
 "トプロバイダーへ連絡してください。"
 
-#: page.irc.php:123
+#: page.irc.php:119
 msgid ""
 "If you wish to change this to your normal nickname, you can type '<b>/nick "
 "yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
@@ -75,21 +98,41 @@ msgstr ""
 "yournickname</b>'と打ち込んでニックネームを変更することができます。これは英語"
 "のみがサポートされたチャネルです。"
 
-#: page.irc.php:109
+#: page.irc.php:176
+msgid ""
+"Insults, name-calling, harassment of any form, vulgarity, profanity, "
+"obscenity, etc. are not allowed. See below for more information."
+msgstr ""
+
+#: page.irc.php:184
 msgid "Online Resources"
 msgstr "オンラインリソース"
 
-#: page.irc.php:112
+#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10 page.irc.php:108
 msgid "Online Support"
 msgstr "オンラインサポート"
 
-#: page.irc.php:108
+#: page.irc.php:183
 msgid "Start IRC"
 msgstr "IRCを開始する"
 
-#: page.irc.php:160
-msgid "This allows you to contact the FreePBX channel on IRC."
-msgstr "ここではIRC上のFreePBXチャネルにコンタクトをとることができます。"
+#: page.irc.php:174
+msgid "The top 2 Rules:"
+msgstr ""
+
+#: page.irc.php:157
+#, php-format
+msgid "This allows you to contact the %s channel on IRC."
+msgstr ""
+
+#: irc.i18n.php:8
+msgid ""
+"This module lets you connect to the IRC network where developers and other "
+"users chat. You can chat to the developers live, if you have problems"
+msgstr ""
+"このモジュールを使用してあなたは開発者や他のユーザーがチャットをしているIRC"
+"ネットワークへ接続することができます。もし問題を抱えた場合にリアルタイムで開"
+"発者とチャットをすることができます。"
 
 #: page.irc.php:77
 msgid ""
@@ -99,7 +142,7 @@ msgstr ""
 "どのようなニックネームを使用したいですか？空白にした場合、あなたのニックネー"
 "ムは自動生成されます。"
 
-#: page.irc.php:164
+#: page.irc.php:161
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
@@ -108,7 +151,7 @@ msgstr ""
 "あなたがサポートの援助をするためにIRCに接続した時、IRCクライアントは自動的に"
 "次の情報を #freepbx channelにいる人全員に送ります。"
 
-#: page.irc.php:122
+#: page.irc.php:118
 msgid ""
 "When you connect, you will be automatically be named 'FreePBX' and a random "
 "4 digit number, eg, FreePBX3486."
@@ -116,22 +159,26 @@ msgstr ""
 "接続時には自動的に'FreePBX'プラスランダムな4桁の数字の名前が付けられます。"
 "例：FreePBX3486。"
 
-#: page.irc.php:170
-msgid "Your FreePBX version:"
-msgstr "あなたのFreePBXバージョン："
-
 #: page.irc.php:167
+#, php-format
+msgid "Your %s version:"
+msgstr ""
+
+#: page.irc.php:164
 msgid "Your Linux Distribution:"
 msgstr "あなたのLinuxディストリビューション："
 
-#~ msgid "Admin"
-#~ msgstr "アドミン"
-
 #~ msgid ""
-#~ "This module lets you connect to the IRC network where developers and "
-#~ "other users chat. You can chat to the developers live, if you have "
-#~ "problems"
+#~ "As IRC is an un-moderated international medium, FreePBX, Schmooze Com, "
+#~ "Inc or any other party can not be held responsible for the actions or "
+#~ "behavior of other people on the network"
 #~ msgstr ""
-#~ "このモジュールを使用してあなたは開発者や他のユーザーがチャットをしている"
-#~ "IRCネットワークへ接続することができます。もし問題を抱えた場合にリアルタイ"
-#~ "ムで開発者とチャットをすることができます。"
+#~ "IRCは自己責任の国際的メディアなので、FreePBX, Schmoozecom, Inc.や他のパー"
+#~ "ティーはネットワーク上の他の人のアクションや振る舞いに責任をもつことができ"
+#~ "ません。"
+
+#~ msgid "This allows you to contact the FreePBX channel on IRC."
+#~ msgstr "ここではIRC上のFreePBXチャネルにコンタクトをとることができます。"
+
+#~ msgid "Your FreePBX version:"
+#~ msgstr "あなたのFreePBXバージョン："

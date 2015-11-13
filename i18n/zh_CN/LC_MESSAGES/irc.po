@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 12:54-0700\n"
+"POT-Creation-Date: 2015-11-13 14:50-0800\n"
 "PO-Revision-Date: 2009-02-01 18:25+0800\n"
 "Last-Translator: 周征晟 <zhougongjizhe@163.com>\n"
 "Language-Team: EdwardBadBoy <zhougongjizhe@163.com>\n"
@@ -30,14 +30,40 @@ msgstr ""
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: page.irc.php:162
-msgid ""
-"As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
-"or any other party can not be held responsible for the actions or behavior "
-"of other people on the network"
+#: irc.i18n.php:6 /usr/src/freepbx/irc/irc.i18n.php:12
+msgid "Admin"
 msgstr ""
 
-#: page.irc.php:174
+#: page.irc.php:159
+#, php-format
+msgid ""
+"As IRC is an un-moderated international medium, %s, Sangoma, Inc or any "
+"other party can not be held responsible for the actions or behavior of other "
+"people on the network"
+msgstr ""
+
+#: page.irc.php:177
+msgid ""
+"Be patient. Sometimes no one will see your question for quite a while if "
+"they are away from the computer or busy elsewhere. Sometimes people are "
+"chatting but no one answers your question. Just ask your question and hang "
+"out in the channel until you see some activity or find someone willing to "
+"assist you. Do not ask every two minutes. If no-one answers you may ask "
+"again 15 to 20 minutes later."
+msgstr ""
+
+#: page.irc.php:182
+msgid "I agree to the rules and terms above"
+msgstr ""
+
+#: page.irc.php:179
+#, php-format
+msgid ""
+"If you do not agree these rules, please feel free not to use any of the %s's "
+"IRC channels."
+msgstr ""
+
+#: page.irc.php:171
 msgid ""
 "If you do not want this information to be made public, please use another "
 "IRC client, or contact a commercial support provider"
@@ -45,7 +71,7 @@ msgstr ""
 "如果你不希望这些信息被公开，请使用其他的IRC客户端，或者与一个商业公司联系以获"
 "得帮助服务"
 
-#: page.irc.php:123
+#: page.irc.php:119
 msgid ""
 "If you wish to change this to your normal nickname, you can type '<b>/nick "
 "yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
@@ -54,21 +80,38 @@ msgstr ""
 "如果你想将名字改成你常用的昵称，你可以输入“<b>/nick 你的昵称</b>”，然后昵称就"
 "改变了。遗憾的是，这个频道只支持英语。"
 
-#: page.irc.php:109
+#: page.irc.php:176
+msgid ""
+"Insults, name-calling, harassment of any form, vulgarity, profanity, "
+"obscenity, etc. are not allowed. See below for more information."
+msgstr ""
+
+#: page.irc.php:184
 msgid "Online Resources"
 msgstr "在线资源"
 
-#: page.irc.php:112
+#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10 page.irc.php:108
 msgid "Online Support"
 msgstr "在线支持"
 
-#: page.irc.php:108
+#: page.irc.php:183
 msgid "Start IRC"
 msgstr "开始在线聊天"
 
-#: page.irc.php:160
-msgid "This allows you to contact the FreePBX channel on IRC."
-msgstr "这可以让你连接到FreePBX频道进行在先聊天。"
+#: page.irc.php:174
+msgid "The top 2 Rules:"
+msgstr ""
+
+#: page.irc.php:157
+#, php-format
+msgid "This allows you to contact the %s channel on IRC."
+msgstr ""
+
+#: irc.i18n.php:8
+msgid ""
+"This module lets you connect to the IRC network where developers and other "
+"users chat. You can chat to the developers live, if you have problems"
+msgstr ""
 
 #: page.irc.php:77
 msgid ""
@@ -76,7 +119,7 @@ msgid ""
 "automatically generated for you."
 msgstr "你希望使用什么昵称？如果你不填写，那么系统会自动为你生成一个昵称。"
 
-#: page.irc.php:164
+#: page.irc.php:161
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
@@ -85,7 +128,7 @@ msgstr ""
 "当你连接到在线聊天系统（IRC）后，要向其他人提供帮助，IRC客户端会自动的将下面"
 "的信息发送给每个在#freepbx频道中的人："
 
-#: page.irc.php:122
+#: page.irc.php:118
 msgid ""
 "When you connect, you will be automatically be named 'FreePBX' and a random "
 "4 digit number, eg, FreePBX3486."
@@ -93,13 +136,20 @@ msgstr ""
 "在连接时，你会被系统自动赋予一个名字，名字以“FreePBX”开头，接着有四位随机数"
 "字，例如，FreePBX3486。"
 
-#: page.irc.php:170
-msgid "Your FreePBX version:"
-msgstr "你的FreePBX版本"
-
 #: page.irc.php:167
+#, php-format
+msgid "Your %s version:"
+msgstr ""
+
+#: page.irc.php:164
 msgid "Your Linux Distribution:"
 msgstr "你的Linux发行版本："
+
+#~ msgid "This allows you to contact the FreePBX channel on IRC."
+#~ msgstr "这可以让你连接到FreePBX频道进行在先聊天。"
+
+#~ msgid "Your FreePBX version:"
+#~ msgstr "你的FreePBX版本"
 
 #~ msgid ""
 #~ "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent "

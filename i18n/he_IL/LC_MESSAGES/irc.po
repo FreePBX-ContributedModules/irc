@@ -22,21 +22,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-11 12:54-0700\n"
+"POT-Creation-Date: 2015-11-13 14:50-0800\n"
 "PO-Revision-Date: 2010-01-23 00:00+0300\n"
 "Last-Translator: Shimi <shimi@shimi.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: page.irc.php:162
-msgid ""
-"As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
-"or any other party can not be held responsible for the actions or behavior "
-"of other people on the network"
+#: irc.i18n.php:6 /usr/src/freepbx/irc/irc.i18n.php:12
+msgid "Admin"
 msgstr ""
 
-#: page.irc.php:174
+#: page.irc.php:159
+#, php-format
+msgid ""
+"As IRC is an un-moderated international medium, %s, Sangoma, Inc or any "
+"other party can not be held responsible for the actions or behavior of other "
+"people on the network"
+msgstr ""
+
+#: page.irc.php:177
+msgid ""
+"Be patient. Sometimes no one will see your question for quite a while if "
+"they are away from the computer or busy elsewhere. Sometimes people are "
+"chatting but no one answers your question. Just ask your question and hang "
+"out in the channel until you see some activity or find someone willing to "
+"assist you. Do not ask every two minutes. If no-one answers you may ask "
+"again 15 to 20 minutes later."
+msgstr ""
+
+#: page.irc.php:182
+msgid "I agree to the rules and terms above"
+msgstr ""
+
+#: page.irc.php:179
+#, php-format
+msgid ""
+"If you do not agree these rules, please feel free not to use any of the %s's "
+"IRC channels."
+msgstr ""
+
+#: page.irc.php:171
 msgid ""
 "If you do not want this information to be made public, please use another "
 "IRC client, or contact a commercial support provider"
@@ -44,7 +70,7 @@ msgstr ""
 "אם אינך מעוניין שמידע זה יהיה פומבי, אנא השתמש בלקוח IRC אחר, או צור קשר עם "
 "נותן תמיכה מסחרי"
 
-#: page.irc.php:123
+#: page.irc.php:119
 msgid ""
 "If you wish to change this to your normal nickname, you can type '<b>/nick "
 "yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
@@ -53,21 +79,38 @@ msgstr ""
 "אם ברצונך לשנות זאת לכינוי הרגיל שלך, תוכל לכתוב '<em>/nick yournickname</"
 "em>', וכינוייך ישתנה. זהו ערוץ תמיכה <em>באנגלית בלבד</em>. אנו מצטערים."
 
-#: page.irc.php:109
+#: page.irc.php:176
+msgid ""
+"Insults, name-calling, harassment of any form, vulgarity, profanity, "
+"obscenity, etc. are not allowed. See below for more information."
+msgstr ""
+
+#: page.irc.php:184
 msgid "Online Resources"
 msgstr ""
 
-#: page.irc.php:112
+#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10 page.irc.php:108
 msgid "Online Support"
 msgstr "תמיכה מקוונת"
 
-#: page.irc.php:108
+#: page.irc.php:183
 msgid "Start IRC"
 msgstr "התחל IRC"
 
-#: page.irc.php:160
-msgid "This allows you to contact the FreePBX channel on IRC."
-msgstr "פעולה זו מאפשרת לך להתחבר לערוץ השיחה של FreePBX ב-IRC."
+#: page.irc.php:174
+msgid "The top 2 Rules:"
+msgstr ""
+
+#: page.irc.php:157
+#, php-format
+msgid "This allows you to contact the %s channel on IRC."
+msgstr ""
+
+#: irc.i18n.php:8
+msgid ""
+"This module lets you connect to the IRC network where developers and other "
+"users chat. You can chat to the developers live, if you have problems"
+msgstr ""
 
 #: page.irc.php:77
 msgid ""
@@ -75,7 +118,7 @@ msgid ""
 "automatically generated for you."
 msgstr ""
 
-#: page.irc.php:164
+#: page.irc.php:161
 msgid ""
 "When you connect to IRC, to assist in support, the IRC client will "
 "automatically send the following information to everyone in the #freepbx "
@@ -84,7 +127,7 @@ msgstr ""
 "כשאתה מתחבר ל IRC, על מנת לסייע בתמיכה, לקוח ה IRC ישלח באופן אוטומטי את "
 "המידע הבא לכל הנמצאים בערוץ #freepbx:"
 
-#: page.irc.php:122
+#: page.irc.php:118
 msgid ""
 "When you connect, you will be automatically be named 'FreePBX' and a random "
 "4 digit number, eg, FreePBX3486."
@@ -92,13 +135,20 @@ msgstr ""
 "כשתתחבר, תיקרא באופן אוטומטי 'FreePBX' עם צירוף אקראי של 4 ספרות, לדוגמא: "
 "FreePBX3486"
 
-#: page.irc.php:170
-msgid "Your FreePBX version:"
-msgstr "גירסת ה-FreePBX שלך:"
-
 #: page.irc.php:167
+#, php-format
+msgid "Your %s version:"
+msgstr ""
+
+#: page.irc.php:164
 msgid "Your Linux Distribution:"
 msgstr "הפצת הלינוקס שלך:"
+
+#~ msgid "This allows you to contact the FreePBX channel on IRC."
+#~ msgstr "פעולה זו מאפשרת לך להתחבר לערוץ השיחה של FreePBX ב-IRC."
+
+#~ msgid "Your FreePBX version:"
+#~ msgstr "גירסת ה-FreePBX שלך:"
 
 #~ msgid ""
 #~ "As IRC is an un-moderated international medium, AMP, FreePBX, Coalescent "
