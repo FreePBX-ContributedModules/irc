@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-06 10:25+1000\n"
-"PO-Revision-Date: 2017-01-12 14:00+0200\n"
-"Last-Translator: Sven <spiderrs4@web.de>\n"
+"PO-Revision-Date: 2017-03-06 02:39+0200\n"
+"Last-Translator: hammer125 <auswertung@aon.at>\n"
 "Language-Team: German "
 "<http://weblate.freepbx.org/projects/freepbx/irc/de_DE/>\n"
 "Language: de_DE\n"
@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Da IRC ein nicht moderiertes internationales Medium ist, können %s, Sangoma, "
 "Inc oder eine andere Partei nicht für die Handlungen oder das Verhalten "
-"anderer verantwortlich gemacht werden."
+"anderer verantwortlich gemacht werden"
 
 #: page.irc.php:177
 msgid ""
@@ -55,7 +55,7 @@ msgstr ""
 
 #: page.irc.php:182
 msgid "I agree to the rules and terms above"
-msgstr "Ich stimme den oben genannten Regeln und Bedingungen zu."
+msgstr "Ich stimme den oben genannten Regeln und Bedingungen zu"
 
 #: page.irc.php:179
 #, php-format
@@ -73,7 +73,7 @@ msgid ""
 msgstr ""
 "Wenn Sie nicht möchten, das diese Informationen veröffentlicht werden, "
 "verwenden Sie bitte einen anderen IRC-Client oder wenden Sie sich an einen "
-"kommerziellen Support-Anbieter."
+"kommerziellen Support-Anbieter"
 
 #: page.irc.php:119
 msgid ""
@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 "Dieses Modul stellt eine Verbindung zum IRC Netzwerk her, wo sich Entwickler "
 "und andere Nutzer unterhalten. Sie können hier einen Entwickler bei einem "
-"Problem live um Hilfe bitten."
+"Problem live um Hilfe bitten"
 
 #: page.irc.php:77
 msgid ""
