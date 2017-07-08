@@ -10,17 +10,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-06 10:25+1000\n"
-"PO-Revision-Date: 2016-07-06 10:25+1000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-07 21:35+0200\n"
+"Last-Translator: PETER <ftek@ymail.com>\n"
+"Language-Team: Vietnamese "
+"<http://weblate.freepbx.org/projects/freepbx/irc/vi/>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
 
 #: irc.i18n.php:6 /usr/src/freepbx/irc/irc.i18n.php:12
 msgid "Admin"
-msgstr ""
+msgstr "Quản trị viên"
 
 #: page.irc.php:159
 #, php-format
@@ -42,7 +45,7 @@ msgstr ""
 
 #: page.irc.php:182
 msgid "I agree to the rules and terms above"
-msgstr ""
+msgstr "Tôi đồng ý với các nguyên tắc và điều khoản ở trên"
 
 #: page.irc.php:179
 #, php-format
@@ -72,36 +75,41 @@ msgstr ""
 
 #: page.irc.php:184
 msgid "Online Resources"
-msgstr ""
+msgstr "Các nguồn trực tuyến"
 
 #: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10 page.irc.php:108
 msgid "Online Support"
-msgstr ""
+msgstr "Hỗ trợ trực tuyến"
 
 #: page.irc.php:183
 msgid "Start IRC"
-msgstr ""
+msgstr "Khởi động IRC"
 
 #: page.irc.php:174
 msgid "The top 2 Rules:"
-msgstr ""
+msgstr "2 nguyên tắc quan trọng nhất:"
 
 #: page.irc.php:157
 #, php-format
 msgid "This allows you to contact the %s channel on IRC."
-msgstr ""
+msgstr "Điều này cho phép bạn liên hệ với kênh %s trên IRC."
 
 #: irc.i18n.php:8
 msgid ""
 "This module lets you connect to the IRC network where developers and other "
 "users chat. You can chat to the developers live, if you have problems"
 msgstr ""
+"Mô đun này cho phép bạn kết nối với mạng IRC nơi người phát triển và người "
+"dùng trò chyện với nhau. Bạn có thể trực tiếp trò chuyện với người phát "
+"triển nếu bạn gặp vấn đề"
 
 #: page.irc.php:77
 msgid ""
 "What nickname would you like to use? If you leave this blank, a nick will be "
 "automatically generated for you."
 msgstr ""
+"Bạn muốn dùng nickname gì? Nếu bạn để trống, hệ thống sẽ tự động tạo một "
+"nickname cho bạn."
 
 #: page.irc.php:161
 msgid ""
@@ -119,7 +127,7 @@ msgstr ""
 #: page.irc.php:167
 #, php-format
 msgid "Your %s version:"
-msgstr ""
+msgstr "Phiên bản %s của bạn:"
 
 #: page.irc.php:164
 msgid "Your Linux Distribution:"
