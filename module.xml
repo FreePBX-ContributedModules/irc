@@ -2,13 +2,14 @@
   <rawname>irc</rawname>
   <repo>extended</repo>
   <name>Online Support</name>
-  <version>2.11.0.7</version>
+  <version>13.0.1</version>
   <publisher>Sangoma Technologies Corporation</publisher>
   <license>GPLv3+</license>
   <licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
-  <description>This module lets you connect to the IRC network where developers and other users chat. You can chat to the developers live, if you have problems</description>
+  <description>This module provides online resources for help with your PBX</description>
 	<changelog>
+    *13.0.1 Move to a linked list with IRC network changes
 		*2.11.0.7* Remove old unneeded jars
 		*2.11.0.6* FREEPBX-10438
 		*2.11.0.5* With support for java removed from browsers use Kiwi IRC moving forward
@@ -25,8 +26,6 @@
   <menuitems>
     <irc>Online Support</irc>
   </menuitems>
-  <location>release/2.11/irc-2.11.0.1.tgz</location>
-  <md5sum>ede75074ed55cfc5d4cb10d0c8c8b802</md5sum>
   <supported>
     <version>2.10</version>
   </supported>
