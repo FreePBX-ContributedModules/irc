@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 10:25+1000\n"
+"POT-Creation-Date: 2018-09-26 01:22-0400\n"
 "PO-Revision-Date: 2017-07-08 08:34+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
-"Language-Team: Vietnamese "
-"<http://weblate.freepbx.org/projects/freepbx/irc/vi/>\n"
+"Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/irc/"
+"vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,137 +21,153 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: irc.i18n.php:6 /usr/src/freepbx/irc/irc.i18n.php:12
+#: irc.i18n.php:6
 msgid "Admin"
 msgstr "Quản trị viên"
 
-#: page.irc.php:159
-#, php-format
-msgid ""
-"As IRC is an un-moderated international medium, %s, Sangoma, Inc or any "
-"other party can not be held responsible for the actions or behavior of other "
-"people on the network"
+#: page.irc.php:11
+msgid "Bugs and Feature Request Commercial"
 msgstr ""
-"Vì IRC là một phương tiện quốc tế chưa kiểm duyệt cho nên %s, Sangoma, Inc  "
-"hay các bên nào khác sẽ không thể chịu trách nhiệm cho các hành động hay "
-"hành vi của những người khác trên mạng"
 
-#: page.irc.php:177
-msgid ""
-"Be patient. Sometimes no one will see your question for quite a while if "
-"they are away from the computer or busy elsewhere. Sometimes people are "
-"chatting but no one answers your question. Just ask your question and hang "
-"out in the channel until you see some activity or find someone willing to "
-"assist you. Do not ask every two minutes. If no-one answers you may ask "
-"again 15 to 20 minutes later."
+#: page.irc.php:10
+msgid "Bugs and Feature Request Open Source"
 msgstr ""
-"Hãy kiên nhẫn. Đôi khi không ai nhìn thấy ngay câu hỏi của bạn nếu họ đang ở "
-"xa máy tính hoặc đang bận. Đôi khi mọi người đang trò chuyện nhưng không ai "
-"trả lời câu hỏi của bạn. Chỉ cần hỏi câu hỏi của bạn và loanh quanh trong "
-"kênh cho đến khi bạn thấy một số hoạt động hoặc tìm ai đó sẵn sàng trợ giúp "
-"bạn. Đừng hỏi liên tục 2 phút một lần. Nếu không có ai trả lời, bạn có thể "
-"hỏi lại sau 15 đến 20 phút."
 
-#: page.irc.php:182
-msgid "I agree to the rules and terms above"
-msgstr "Tôi đồng ý với các nguyên tắc và điều khoản ở trên"
-
-#: page.irc.php:179
-#, php-format
-msgid ""
-"If you do not agree these rules, please feel free not to use any of the %s's "
-"IRC channels."
+#: page.irc.php:7
+msgid "Community Forums"
 msgstr ""
-"Nếu bạn không đồng ý với các nguyên tắc này, vui lòng không sử dụng bất kỳ "
-"kênh IRC nào của %s."
 
-#: page.irc.php:171
-msgid ""
-"If you do not want this information to be made public, please use another "
-"IRC client, or contact a commercial support provider"
+#: page.irc.php:8
+msgid "IRC Information"
 msgstr ""
-"Nếu bạn không muốn thông tin này được công khai, vui lòng sử dụng một máy "
-"khách IRC khác hoặc liên hệ với nhà cung cấp hỗ trợ thương mại"
 
-#: page.irc.php:119
-msgid ""
-"If you wish to change this to your normal nickname, you can type '<b>/nick "
-"yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
-"support channel. Sorry."
-msgstr ""
-"Nếu bạn muốn thay đổi tên này thành nickname bình thường, bạn có thể đánh "
-"'<b>/nick yournickname</b>', và nick của bạn sẽ được thay đổi. Đây là kênh "
-"chỉ hỗ trợ bằng Tiếng Anh. Rất lấy làm tiếc."
-
-#: page.irc.php:176
-msgid ""
-"Insults, name-calling, harassment of any form, vulgarity, profanity, "
-"obscenity, etc. are not allowed. See below for more information."
-msgstr ""
-"Không được phép lăng mạ, gọi tên, quấy rối dưới bất kỳ hình thức nào như các "
-"hành vi khiếm nhã, xúc phạm, khiêu dâm,... Xem bên dưới để biết thêm thông "
-"tin."
-
-#: page.irc.php:184
-msgid "Online Resources"
-msgstr "Các nguồn trực tuyến"
-
-#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10 page.irc.php:108
+#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10
 msgid "Online Support"
 msgstr "Hỗ trợ trực tuyến"
 
-#: page.irc.php:183
-msgid "Start IRC"
-msgstr "Khởi động IRC"
+#: page.irc.php:2
+msgid "Online Support Resources"
+msgstr ""
 
-#: page.irc.php:174
-msgid "The top 2 Rules:"
-msgstr "2 nguyên tắc quan trọng nhất:"
+#: page.irc.php:13
+msgid "Product Training"
+msgstr ""
 
-#: page.irc.php:157
-#, php-format
-msgid "This allows you to contact the %s channel on IRC."
-msgstr "Điều này cho phép bạn liên hệ với kênh %s trên IRC."
+#: page.irc.php:12
+msgid "Professional Support Services"
+msgstr ""
 
 #: irc.i18n.php:8
-msgid ""
-"This module lets you connect to the IRC network where developers and other "
-"users chat. You can chat to the developers live, if you have problems"
+msgid "This module provides online resources for help with your PBX"
 msgstr ""
-"Mô đun này cho phép bạn kết nối với mạng IRC nơi nhà phát triển và người "
-"dùng trò chyện với nhau. Bạn có thể trực tiếp trò chuyện với nhà phát triển "
-"nếu bạn gặp vấn đề"
 
-#: page.irc.php:77
-msgid ""
-"What nickname would you like to use? If you leave this blank, a nick will be "
-"automatically generated for you."
+#: page.irc.php:9
+msgid "WIKI"
 msgstr ""
-"Bạn muốn dùng nickname gì? Nếu bạn để trống, hệ thống sẽ tự động tạo một "
-"nickname cho bạn."
 
-#: page.irc.php:161
-msgid ""
-"When you connect to IRC, to assist in support, the IRC client will "
-"automatically send the following information to everyone in the #freepbx "
-"channel:"
-msgstr ""
-"Khi bạn kết nối với IRC, để tìm kiếm hỗ trợ, máy khách IRC sẽ tự động gửi "
-"các thông tin sau đến tất cả mọi người trong kênh #freepbx:"
+#~ msgid ""
+#~ "As IRC is an un-moderated international medium, %s, Sangoma, Inc or any "
+#~ "other party can not be held responsible for the actions or behavior of "
+#~ "other people on the network"
+#~ msgstr ""
+#~ "Vì IRC là một phương tiện quốc tế chưa kiểm duyệt cho nên %s, Sangoma, "
+#~ "Inc  hay các bên nào khác sẽ không thể chịu trách nhiệm cho các hành động "
+#~ "hay hành vi của những người khác trên mạng"
 
-#: page.irc.php:118
-msgid ""
-"When you connect, you will be automatically be named 'FreePBX' and a random "
-"4 digit number, eg, FreePBX3486."
-msgstr ""
-"Khi kết nối, bạn sẽ được tự động đặt tên là 'FreePBX' và một số ngẫu nhiên "
-"gồm 4 chữ số, ví dụ FreePBX3486."
+#~ msgid ""
+#~ "Be patient. Sometimes no one will see your question for quite a while if "
+#~ "they are away from the computer or busy elsewhere. Sometimes people are "
+#~ "chatting but no one answers your question. Just ask your question and "
+#~ "hang out in the channel until you see some activity or find someone "
+#~ "willing to assist you. Do not ask every two minutes. If no-one answers "
+#~ "you may ask again 15 to 20 minutes later."
+#~ msgstr ""
+#~ "Hãy kiên nhẫn. Đôi khi không ai nhìn thấy ngay câu hỏi của bạn nếu họ "
+#~ "đang ở xa máy tính hoặc đang bận. Đôi khi mọi người đang trò chuyện nhưng "
+#~ "không ai trả lời câu hỏi của bạn. Chỉ cần hỏi câu hỏi của bạn và loanh "
+#~ "quanh trong kênh cho đến khi bạn thấy một số hoạt động hoặc tìm ai đó sẵn "
+#~ "sàng trợ giúp bạn. Đừng hỏi liên tục 2 phút một lần. Nếu không có ai trả "
+#~ "lời, bạn có thể hỏi lại sau 15 đến 20 phút."
 
-#: page.irc.php:167
-#, php-format
-msgid "Your %s version:"
-msgstr "Phiên bản %s của bạn:"
+#~ msgid "I agree to the rules and terms above"
+#~ msgstr "Tôi đồng ý với các nguyên tắc và điều khoản ở trên"
 
-#: page.irc.php:164
-msgid "Your Linux Distribution:"
-msgstr "Phân phối Linux của bạn:"
+#~ msgid ""
+#~ "If you do not agree these rules, please feel free not to use any of the "
+#~ "%s's IRC channels."
+#~ msgstr ""
+#~ "Nếu bạn không đồng ý với các nguyên tắc này, vui lòng không sử dụng bất "
+#~ "kỳ kênh IRC nào của %s."
+
+#~ msgid ""
+#~ "If you do not want this information to be made public, please use another "
+#~ "IRC client, or contact a commercial support provider"
+#~ msgstr ""
+#~ "Nếu bạn không muốn thông tin này được công khai, vui lòng sử dụng một máy "
+#~ "khách IRC khác hoặc liên hệ với nhà cung cấp hỗ trợ thương mại"
+
+#~ msgid ""
+#~ "If you wish to change this to your normal nickname, you can type '<b>/"
+#~ "nick yournickname</b>', and your nick will change. This is an ENGLISH "
+#~ "ONLY support channel. Sorry."
+#~ msgstr ""
+#~ "Nếu bạn muốn thay đổi tên này thành nickname bình thường, bạn có thể đánh "
+#~ "'<b>/nick yournickname</b>', và nick của bạn sẽ được thay đổi. Đây là "
+#~ "kênh chỉ hỗ trợ bằng Tiếng Anh. Rất lấy làm tiếc."
+
+#~ msgid ""
+#~ "Insults, name-calling, harassment of any form, vulgarity, profanity, "
+#~ "obscenity, etc. are not allowed. See below for more information."
+#~ msgstr ""
+#~ "Không được phép lăng mạ, gọi tên, quấy rối dưới bất kỳ hình thức nào như "
+#~ "các hành vi khiếm nhã, xúc phạm, khiêu dâm,... Xem bên dưới để biết thêm "
+#~ "thông tin."
+
+#~ msgid "Online Resources"
+#~ msgstr "Các nguồn trực tuyến"
+
+#~ msgid "Start IRC"
+#~ msgstr "Khởi động IRC"
+
+#~ msgid "The top 2 Rules:"
+#~ msgstr "2 nguyên tắc quan trọng nhất:"
+
+#~ msgid "This allows you to contact the %s channel on IRC."
+#~ msgstr "Điều này cho phép bạn liên hệ với kênh %s trên IRC."
+
+#~ msgid ""
+#~ "This module lets you connect to the IRC network where developers and "
+#~ "other users chat. You can chat to the developers live, if you have "
+#~ "problems"
+#~ msgstr ""
+#~ "Mô đun này cho phép bạn kết nối với mạng IRC nơi nhà phát triển và người "
+#~ "dùng trò chyện với nhau. Bạn có thể trực tiếp trò chuyện với nhà phát "
+#~ "triển nếu bạn gặp vấn đề"
+
+#~ msgid ""
+#~ "What nickname would you like to use? If you leave this blank, a nick will "
+#~ "be automatically generated for you."
+#~ msgstr ""
+#~ "Bạn muốn dùng nickname gì? Nếu bạn để trống, hệ thống sẽ tự động tạo một "
+#~ "nickname cho bạn."
+
+#~ msgid ""
+#~ "When you connect to IRC, to assist in support, the IRC client will "
+#~ "automatically send the following information to everyone in the #freepbx "
+#~ "channel:"
+#~ msgstr ""
+#~ "Khi bạn kết nối với IRC, để tìm kiếm hỗ trợ, máy khách IRC sẽ tự động gửi "
+#~ "các thông tin sau đến tất cả mọi người trong kênh #freepbx:"
+
+#~ msgid ""
+#~ "When you connect, you will be automatically be named 'FreePBX' and a "
+#~ "random 4 digit number, eg, FreePBX3486."
+#~ msgstr ""
+#~ "Khi kết nối, bạn sẽ được tự động đặt tên là 'FreePBX' và một số ngẫu "
+#~ "nhiên gồm 4 chữ số, ví dụ FreePBX3486."
+
+#~ msgid "Your %s version:"
+#~ msgstr "Phiên bản %s của bạn:"
+
+#~ msgid "Your Linux Distribution:"
+#~ msgstr "Phân phối Linux của bạn:"

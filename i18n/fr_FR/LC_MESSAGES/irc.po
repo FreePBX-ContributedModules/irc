@@ -19,136 +19,113 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 10:25+1000\n"
+"POT-Creation-Date: 2018-09-26 01:22-0400\n"
 "PO-Revision-Date: 2016-02-02 06:15+0200\n"
 "Last-Translator: Nicolas Riendeau <freepbx@riendeau.org>\n"
 "Language-Team: French <http://weblate.freepbx.org/projects/freepbx/irc/fr_FR/"
 ">\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
-#: irc.i18n.php:6 /usr/src/freepbx/irc/irc.i18n.php:12
+#: irc.i18n.php:6
 msgid "Admin"
 msgstr "Admin"
 
-#: page.irc.php:159
-#, php-format
-msgid ""
-"As IRC is an un-moderated international medium, %s, Sangoma, Inc or any "
-"other party can not be held responsible for the actions or behavior of other "
-"people on the network"
+#: page.irc.php:11
+msgid "Bugs and Feature Request Commercial"
 msgstr ""
 
-#: page.irc.php:177
-msgid ""
-"Be patient. Sometimes no one will see your question for quite a while if "
-"they are away from the computer or busy elsewhere. Sometimes people are "
-"chatting but no one answers your question. Just ask your question and hang "
-"out in the channel until you see some activity or find someone willing to "
-"assist you. Do not ask every two minutes. If no-one answers you may ask "
-"again 15 to 20 minutes later."
+#: page.irc.php:10
+msgid "Bugs and Feature Request Open Source"
 msgstr ""
 
-#: page.irc.php:182
-msgid "I agree to the rules and terms above"
-msgstr "J'accepte les règles et termes ci-dessus"
-
-#: page.irc.php:179
-#, php-format
-msgid ""
-"If you do not agree these rules, please feel free not to use any of the %s's "
-"IRC channels."
+#: page.irc.php:7
+msgid "Community Forums"
 msgstr ""
 
-#: page.irc.php:171
-msgid ""
-"If you do not want this information to be made public, please use another "
-"IRC client, or contact a commercial support provider"
-msgstr ""
-"Si vous ne voulez pas rendre ces informations publiques, veuillez utiliser "
-"un autre client IRC, ou contactez un fournisseur de support commercial"
-
-#: page.irc.php:119
-msgid ""
-"If you wish to change this to your normal nickname, you can type '<b>/nick "
-"yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
-"support channel. Sorry."
-msgstr ""
-"Si vous voulez modifier votre pseudo, vous pouvez taper '<b>/nick "
-"votrepseudo</b>', et votre pseudo changera. Ceci est un canal de support en "
-"ANGLAIS uniquement. Désolé."
-
-#: page.irc.php:176
-msgid ""
-"Insults, name-calling, harassment of any form, vulgarity, profanity, "
-"obscenity, etc. are not allowed. See below for more information."
+#: page.irc.php:8
+msgid "IRC Information"
 msgstr ""
 
-#: page.irc.php:184
-msgid "Online Resources"
-msgstr "Ressources En Ligne"
-
-#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10 page.irc.php:108
+#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10
 msgid "Online Support"
 msgstr "Support en Ligne"
 
-#: page.irc.php:183
-msgid "Start IRC"
-msgstr "Démarrer IRC"
-
-#: page.irc.php:174
-msgid "The top 2 Rules:"
+#: page.irc.php:2
+msgid "Online Support Resources"
 msgstr ""
 
-#: page.irc.php:157
-#, php-format
-msgid "This allows you to contact the %s channel on IRC."
+#: page.irc.php:13
+msgid "Product Training"
+msgstr ""
+
+#: page.irc.php:12
+msgid "Professional Support Services"
 msgstr ""
 
 #: irc.i18n.php:8
-msgid ""
-"This module lets you connect to the IRC network where developers and other "
-"users chat. You can chat to the developers live, if you have problems"
+msgid "This module provides online resources for help with your PBX"
 msgstr ""
 
-#: page.irc.php:77
-msgid ""
-"What nickname would you like to use? If you leave this blank, a nick will be "
-"automatically generated for you."
-msgstr ""
-"Quel pseudo voulez-vous utiliser ? Si vous laissez à blanc, un pseudo sera "
-"automatiquement généré pour vous."
-
-#: page.irc.php:161
-msgid ""
-"When you connect to IRC, to assist in support, the IRC client will "
-"automatically send the following information to everyone in the #freepbx "
-"channel:"
-msgstr ""
-"Quand vous vous connectez à IRC, pour aider dans le support, le client IRC "
-"enverra automatiquement les informations suivantes à tout le monde sur le "
-"canal #freepbx :"
-
-#: page.irc.php:118
-msgid ""
-"When you connect, you will be automatically be named 'FreePBX' and a random "
-"4 digit number, eg, FreePBX3486."
-msgstr ""
-"Quand vous vous connectez, vous serez automatiquement nommé 'FreePBX' suivi "
-"d'un numéro à 4 chiffres, par exemple FreePBX3486."
-
-#: page.irc.php:167
-#, php-format
-msgid "Your %s version:"
+#: page.irc.php:9
+msgid "WIKI"
 msgstr ""
 
-#: page.irc.php:164
-msgid "Your Linux Distribution:"
-msgstr "Votre Distribution Linux :"
+#~ msgid "I agree to the rules and terms above"
+#~ msgstr "J'accepte les règles et termes ci-dessus"
+
+#~ msgid ""
+#~ "If you do not want this information to be made public, please use another "
+#~ "IRC client, or contact a commercial support provider"
+#~ msgstr ""
+#~ "Si vous ne voulez pas rendre ces informations publiques, veuillez "
+#~ "utiliser un autre client IRC, ou contactez un fournisseur de support "
+#~ "commercial"
+
+#~ msgid ""
+#~ "If you wish to change this to your normal nickname, you can type '<b>/"
+#~ "nick yournickname</b>', and your nick will change. This is an ENGLISH "
+#~ "ONLY support channel. Sorry."
+#~ msgstr ""
+#~ "Si vous voulez modifier votre pseudo, vous pouvez taper '<b>/nick "
+#~ "votrepseudo</b>', et votre pseudo changera. Ceci est un canal de support "
+#~ "en ANGLAIS uniquement. Désolé."
+
+#~ msgid "Online Resources"
+#~ msgstr "Ressources En Ligne"
+
+#~ msgid "Start IRC"
+#~ msgstr "Démarrer IRC"
+
+#~ msgid ""
+#~ "What nickname would you like to use? If you leave this blank, a nick will "
+#~ "be automatically generated for you."
+#~ msgstr ""
+#~ "Quel pseudo voulez-vous utiliser ? Si vous laissez à blanc, un pseudo "
+#~ "sera automatiquement généré pour vous."
+
+#~ msgid ""
+#~ "When you connect to IRC, to assist in support, the IRC client will "
+#~ "automatically send the following information to everyone in the #freepbx "
+#~ "channel:"
+#~ msgstr ""
+#~ "Quand vous vous connectez à IRC, pour aider dans le support, le client "
+#~ "IRC enverra automatiquement les informations suivantes à tout le monde "
+#~ "sur le canal #freepbx :"
+
+#~ msgid ""
+#~ "When you connect, you will be automatically be named 'FreePBX' and a "
+#~ "random 4 digit number, eg, FreePBX3486."
+#~ msgstr ""
+#~ "Quand vous vous connectez, vous serez automatiquement nommé 'FreePBX' "
+#~ "suivi d'un numéro à 4 chiffres, par exemple FreePBX3486."
+
+#~ msgid "Your Linux Distribution:"
+#~ msgstr "Votre Distribution Linux :"
 
 #~ msgid "This allows you to contact the FreePBX channel on IRC."
 #~ msgstr "Ceci vous permet de contacter le canal IRC de FreePBX."
