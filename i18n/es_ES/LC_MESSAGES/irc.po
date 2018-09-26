@@ -20,16 +20,16 @@ msgstr ""
 "Project-Id-Version: FreePBX - módulo irc module spanish translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-13 14:50-0800\n"
-"PO-Revision-Date: 2015-03-25 08:08+0200\n"
+"PO-Revision-Date: 2016-12-09 07:58+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
-"Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/irc/"
-"es_ES/>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/irc/es_ES/>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.2-dev\n"
+"X-Generator: Weblate 2.4\n"
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -45,6 +45,9 @@ msgid ""
 "other party can not be held responsible for the actions or behavior of other "
 "people on the network"
 msgstr ""
+"Como IRC es un medio internacional no moderado,%s, Sangoma, Inc o cualquier "
+"otra parte no puede ser considerado responsable de las acciones o el "
+"comportamiento de otras personas en la red"
 
 #: page.irc.php:177
 msgid ""
@@ -55,10 +58,16 @@ msgid ""
 "assist you. Do not ask every two minutes. If no-one answers you may ask "
 "again 15 to 20 minutes later."
 msgstr ""
+"Sea paciente. A veces nadie va a ver tu pregunta durante bastante tiempo si "
+"están lejos de la computadora o están ocupados en otro lugar. A veces la "
+"gente está charlando pero nadie responde a su pregunta. Simplemente haga su "
+"pregunta y cuelgue en el canal hasta que vea alguna actividad o encuentre a "
+"alguien dispuesto a ayudarle. No pregunte cada dos minutos. Si nadie "
+"responde, puede preguntar nuevamente de 15 a 20 minutos más tarde."
 
 #: page.irc.php:182
 msgid "I agree to the rules and terms above"
-msgstr ""
+msgstr "Acepto las reglas y los términos anteriores"
 
 #: page.irc.php:179
 #, php-format
@@ -66,6 +75,8 @@ msgid ""
 "If you do not agree these rules, please feel free not to use any of the %s's "
 "IRC channels."
 msgstr ""
+"Si no está de acuerdo con estas reglas, por favor no dude en no usar los "
+"canales de IRC de %s."
 
 #: page.irc.php:171
 msgid ""
@@ -89,6 +100,8 @@ msgid ""
 "Insults, name-calling, harassment of any form, vulgarity, profanity, "
 "obscenity, etc. are not allowed. See below for more information."
 msgstr ""
+"No se permiten insultos, acoso de cualquier forma, vulgaridad, profanidad, "
+"obscenidad, etc. Vea abajo para más información."
 
 #: page.irc.php:184
 msgid "Online Resources"
@@ -104,12 +117,12 @@ msgstr "Iniciar IRC"
 
 #: page.irc.php:174
 msgid "The top 2 Rules:"
-msgstr ""
+msgstr "Las 2 reglas principales:"
 
 #: page.irc.php:157
 #, php-format
 msgid "This allows you to contact the %s channel on IRC."
-msgstr ""
+msgstr "Esto le permite contactar el canal %s en IRC."
 
 #: irc.i18n.php:8
 msgid ""
@@ -148,7 +161,7 @@ msgstr ""
 #: page.irc.php:167
 #, php-format
 msgid "Your %s version:"
-msgstr ""
+msgstr "Su Version %s:"
 
 #: page.irc.php:164
 msgid "Your Linux Distribution:"
