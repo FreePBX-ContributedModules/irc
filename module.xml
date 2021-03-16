@@ -2,31 +2,19 @@
   <rawname>irc</rawname>
   <repo>extended</repo>
   <name>Online Support</name>
-  <version>13.0.1</version>
+  <version>16.0.1</version>
   <publisher>Sangoma Technologies Corporation</publisher>
   <license>GPLv3+</license>
   <licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
   <description>This module provides online resources for help with your PBX</description>
 	<changelog>
-    *13.0.1 Move to a linked list with IRC network changes
-		*2.11.0.7* Remove old unneeded jars
-		*2.11.0.6* FREEPBX-10438
-		*2.11.0.5* With support for java removed from browsers use Kiwi IRC moving forward
-	  	*2.11.0.4* Sign Jar Files, fix language issues
-  		*2.11.0.3* Include license file
-		*2.11.0.1* Remove old company name.
-		*2.11.0.0* bump version
-		*2.10.0.2* #5478
-		*2.10.0.1* #5341
-		*2.10.0.0* new version changes
-		*2.9.0.1* set repository
-		*2.9.0.0* 2.9 Update
+		*16.0.1* 16.0 
 	</changelog>
   <menuitems>
     <irc>Online Support</irc>
   </menuitems>
   <supported>
-    <version>13.0</version>
+    <version>16.0</version>
   </supported>
 </module>
